@@ -1,0 +1,267 @@
+@media screen and (min-width:320px) and (max-width:768px){
+    body,html {
+        font-size: 50%;
+    }
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    hr { 
+        display: none;
+    }
+
+    div.content-1{
+        width: 100%;
+    }
+
+    div.content-1  > img {
+        max-width: 200px;
+        width: 100%;
+        padding-top: 43px;
+        margin: 0 auto;
+    }
+
+    div.content-1 > ul {
+        display: none;
+    }
+    
+    .menu {
+        width: 100%;
+        max-width: 300px;
+        display: block;
+    }
+    .menu-princ {
+        margin: 56px auto;
+        width: 100%;
+        padding: 0;
+  
+    }
+
+    .menu-princ > h1 {
+     
+        line-height: 44px;
+        width: 320px;
+        margin-left: -20px;
+        height: auto;
+        padding: 0 1%;
+        font-size: 30px;
+    }
+
+    .menu-princ > p {
+        display: none;
+    }
+
+    .menu-princ > input {
+       width: 100%;
+       margin: 34px auto;
+    }
+
+    .menu-image {
+        max-width: 100%;
+        margin: 0 auto;
+        position: relative;
+        left: 0;
+        top: -40px;
+    }
+
+    .content-2 {
+        display: block;
+        height: 100%;
+    }
+
+    .content-2 .cont-grafic {
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .content-2 .cont-grafic .box {
+        padding: 47px 0;
+    }
+    
+    .content-3 {
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        padding: 0 4%;
+    }
+
+    .content-3 .banner {
+        width: 100%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .content-3 .banner .hero-banner h1 {
+        font-size: 30px;
+        width: 326px;
+        line-height: 40px;
+        font-weight: bold;
+    }
+
+    .content-3 .banner .hero-banner p {
+        width: 326px;
+        margin-top: 0;
+    }
+
+    .content-3 .banner .hero-banner input[type=button] {
+    
+        margin-left: 35px;
+    }
+  
+    .banner {
+        margin: 0 auto;
+    }
+
+    .banner .hero-banner {
+        margin: 0 auto;
+    }
+
+    .hero-banner  > h1 {
+        font-size:10px;
+    }
+
+    .card-banner {
+        width: 100%;
+        display: block;
+        height: 100%;
+    }
+    .card-banner .box-banner,
+    .box-banner-2  {
+        display: block;
+        width: 100%;
+        max-width: 272px;
+        margin: 0 auto;
+    }
+
+    .content-4 {
+        height: 100%;
+    }
+
+    .content-4 .cont-info {
+        width: 100%;
+        display: block;
+        padding: 60px 0;
+    }
+    .content-4 .cont-info h1 {
+        text-align: center;
+        margin: 0 auto;
+    
+    }
+    .content-4 .cont-info p {
+        width: 100%;
+        padding: 0 5%;
+        height: 50%;
+    }
+    .content-5 .cont-text  {
+        width: 100%;
+    }
+
+    .content-5 .cont-text h1 {
+        padding: 0 10%;
+        text-align: center;
+        margin: 47px auto;
+    }
+    
+    .content-5 .cont-text p {
+        font-size: 16px;
+        padding: 0 4%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .content-5 .cont-text .cont-form {
+        max-width: 80%;
+        width: 100%;
+    }
+    .content-5 .cont-text .cont-form .form-align input {
+        width: 90%;
+        text-align: center;
+        padding: 0 38px;
+    }
+    .content-5 .cont-text .cont-form .form-align {
+        text-align: center;
+    }
+
+}
+
+/*resposividade de 768px ate 1166px*/
+
+@media screen and (min-width:768px) and (max-width:1166px){
+    body, html {
+        width: 100%;
+        height: 100vh;
+    }
+    .content-1 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .container .menu {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .container .menu-princ {
+        padding: 0;
+        width: 50%;
+        float: left;
+
+    }
+
+    .container .menu-image {
+        width: 50%;
+        float: right;
+        position: initial;
+    }
+
+    .container .menu-image > img {
+        width: 100%;
+        max-width: 100%;
+        float: right;  
+    }
+
+    div.content-3 {
+        width: auto;
+        max-width: 100%;
+        height: 100%;
+        margin-bottom: 100px;
+        font-size: 50%;
+        background-color: red;
+    }
+
+    .content-3 .banner {
+        flex-wrap: wrap;
+        display:flex;
+        justify-content: center;
+    }
+
+    .card-banner{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    div.content-4 {
+        margin: 4rem auto;
+        width: 100%;
+      
+    }
+
+    .content-4 section.cont-info h1 {
+        text-align: center;
+    }
+    .content-4 section.cont-info {
+        width: 100%;
+        display: block;
+        padding: 5px 0;
+    }
+    .content-4 section.cont-info >  p {
+            width: 100%;
+            padding: 0 1%;
+            display: block;
+    }
+
+}
